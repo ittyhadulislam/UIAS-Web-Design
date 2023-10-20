@@ -1,0 +1,44 @@
+.top-header {
+    background: #212934;
+    /* width: 100%; */
+}
+
+.inner-content {
+    /* width: 100%; */
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-title {
+    color: white;
+}
+
+.content-button-textbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-text {
+    padding: 10px;
+    border-radius: 5px;
+    border: none
+}
+
+.header-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #59AB6E;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .top-header {
+        display: none;
+    }
+}

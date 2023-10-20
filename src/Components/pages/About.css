@@ -1,0 +1,34 @@
+.content-description {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.about-image {
+    width: 500px;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .inner-content-about {
+        flex-direction: column;
+    }
+
+    .about-image {
+        width: 500px;
+        height: auto;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .inner-content-about{
+        flex-direction: column;
+    }
+
+    .about-image {
+        width: 350px;
+        height: auto;
+    }
+}
